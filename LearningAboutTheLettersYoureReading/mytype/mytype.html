@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Type</title>
+    </head>
+    <link href="css/styles.css" 
+              type="text/css" 
+              rel="stylesheet"/> <!-- link style sheet-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> <!-- link style font -->
+    <body>
+           <a href="../index.html"><img src="img/rachaelsdesignssuck.png" width="146px" align="left"/></a>
+            <!-- image header and link --> 
+            <p align="right">Learning About the Letters You're Reading</p>
+ 
+        <div class="navigation" > <!-- START navigation container-->
+            <div id="nav"><a href="../index.html">Home</a></div>           <div id="nav"><a href="../Bits/bits.html">Bits</a></div>
+            <div id="nav"><a href="../Classification/classification.html">Classification</a></div>
+            <div id="nav"><a href="../History/history.html">History</a></div>
+            <div id="nav"><a href="mytype.html">My Type</a></div>
+        </div><!-- END navigation container -->
+        
+        
+        <!--test fonts-->
+        <p class="greentitle">My Type</p>
+        <p class="testtitle" align="center">Test out the fonts I've made!</p>
+        <form class="typetest" align="center">
+  
+            <input id="typetest" type="text" name="typetest" autofocus>
+  
+        </form>
+
+        <div class="button" align="center">
+        <!--SZELLEMbutton-->    
+            <button id="szellemtypechange" onclick="mySzellem()">Szellem</button>
+            
+        <!--java-->
+            <script>
+                function mySzellem() {
+                  document.getElementById("typetest").style.fontFamily = "Szellem";
+                }
+            </script>
+        <!--SZELLEM END-->
+            
+        <!--SQUEETCHbutton-->    
+            <button id="squeetchtypechange" onclick="mySqueetch()">Squeetch</button>
+            
+                <!--java-->
+            <script>
+                function mySqueetch() {
+                    document.getElementById("typetest").style.fontFamily = "Squeetch Sans";
+                    }
+            </script>
+        <!--SQUEETCH END-->
+
+        </div>
+    </body>
+</html>

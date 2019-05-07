@@ -1,0 +1,87 @@
+/*CLASSIFICATION CSS*/
+
+/*site font*/
+*{font-family: 'Oswald', sans-serif;}
+
+body{
+    background-image:url("../img/bgimg.png");
+}
+/*navigation*/
+#nav{
+    display: inline;
+    font-size: 30px;
+    margin: 20px;    }
+.navigation {
+    text-align: right;}
+
+
+/*link decoration NO UNDERLINE and color change*/
+
+a:link {
+    text-decoration: none;
+    color: #253946; /*blue color*/}
+a:visited {
+    text-decoration: none;
+    color: #253946;}
+a:hover {
+    color: #ecaa92; /*dark peach color*/}
+
+
+
+/*title*/
+p.title{
+    color: #ecaa92;
+    font-size: 60px;}
+
+/*PAGE SPECIFIC CSS*/
+
+/*intro text*/
+.intro{
+    display: inline;}
+p.introtext{
+    color:#253946;
+    width:400px;
+    text-align: left;
+    float: left;
+    font-size: 22px;}
+
+/*letter R*/
+.letterr{
+    display: block;
+    font-size: 100px;
+    float: left;
+    text-align: center;}
+.serif{
+    color:#253946;
+    font-family: serif;}
+.sansserif{
+    color:#253946;
+    font-family: sans-serif}
+.monopsace{
+    color:#253946;
+    font-family: fantasy;}
+
+/*page title and content*/
+.pagetitle{
+    color: #2e4b46;
+    font-size: 250px;
+    text-align: right;
+    line-height: 80%;}
+
+.subtitle{
+    color: #2e4b46;
+    font-size: 100px;}
+.subsubtitle{
+    color: #253946;
+    font-size: 50px;}
+.bodytext {
+    color: #253946;
+    font-size: 24px;
+    margin-right: 500px}
+.bodytextright {
+    color: #253946;
+    font-size: 24px;
+    margin-left: 500px}
+
+
+

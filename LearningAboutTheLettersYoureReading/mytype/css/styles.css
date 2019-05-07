@@ -1,0 +1,111 @@
+/*MY TYPE CSS*/
+
+/*site font*/
+*{font-family: 'Oswald', sans-serif;}
+
+body{
+    background-image:url("../img/bgimg.png");
+}
+/*navigation*/
+#nav{
+    display: inline;
+    font-size: 30px;
+    margin: 20px;    }
+.navigation {
+    text-align: right;}
+
+/*link decoration NO UNDERLINE and color change*/
+a:link {
+    text-decoration: none;
+    color: #253946; /*blue color*/}
+a:visited {
+    text-decoration: none;
+    color: #253946;}
+a:hover {
+    color: #ecaa92; /*dark peach color*/}
+
+/*title*/
+p{
+    color: #ecaa92;
+    font-size: 60px;}
+
+/*PAGE SPECIFIC CSS*/
+
+/*page title and content*/
+
+.greentitle{
+    color: #2e4b46;
+    font-size: 245px;
+    text-align: center;
+    margin: 0px;
+    margin-top: 2%;
+    line-height: 110%;
+}
+/*type test*/
+.testtitle{
+    margin: 0px;
+    margin-bottom: 0%;
+}
+
+form{
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+input{
+    width: 700px;
+    height: 150px;
+    font-size: inherit;
+    border: 3px solid #555;
+}
+input:focus {
+    outline:none;
+}
+
+/*buttons*/
+
+button{
+        background-color: #ecaa92; /* peachish color */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 80px;
+        margin: 20px;
+        opacity: .6;
+}
+button:focus {
+    outline:none;
+}
+button:hover {
+    opacity: 1;
+}
+
+
+#typetest{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 0px;
+}
+
+/* FONT?*/
+
+@font-face {
+font-family: "Squeetch";
+src: url("css/fonts/squeetch/squeetch.eot");
+src: 
+url("css/fonts/squeetch/Squeetch.woff") format("woff"),
+url("css/fonts/squeetch/Squeetch.otf") format("opentype"),
+url("css/fonts/squeetch/Squeetch.svg#filename") format("svg");
+}
+
+@font-face {
+font-family: "Squeetch Sans";
+src: url("css/fonts/squeetch/squeetch.eot");
+src: 
+url("css/fonts/squeetch/Squeetch.woff") format("woff"),
+url("css/fonts/squeetch/Squeetch.otf") format("opentype"),
+url("css/fonts/squeetch/Squeetch.svg#filename") format("svg");
+}

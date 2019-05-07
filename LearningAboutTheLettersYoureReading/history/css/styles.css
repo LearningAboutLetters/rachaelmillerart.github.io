@@ -1,0 +1,61 @@
+/*HISTORY CSS*/
+
+/*site font*/
+*{font-family: 'Oswald', sans-serif;}
+
+body{
+    background-image:url("../img/bgimg.png");
+}
+/*navigation*/
+#nav{
+    display: inline;
+    font-size: 30px;
+    margin: 20px;    }
+.navigation {
+    text-align: right;}
+
+/*link decoration NO UNDERLINE and color change*/
+a:link {
+    text-decoration: none;
+    color: #253946; /*blue color*/}
+a:visited {
+    text-decoration: none;
+    color: #253946;}
+a:hover {
+    color: #ecaa92; /*dark peach color*/}
+
+/*title*/
+p.title{
+    color: #ecaa92;
+    font-size: 60px;}
+
+/*PAGE SPECIFIC CSS*/
+
+.press{
+    float:left;
+    }
+
+p.introbody{
+    color: #253946;
+    font-size: 24px;
+    text-align: right;
+    width:300px;
+    float:right;
+    margin-right: 20px;}
+
+.pagetitle{
+    color: #2e4b46;
+    font-size: 300px;
+    text-align: right;
+    line-height: 80%;}
+
+.bodytext{
+    font-size: 20px;
+    color: #253946;
+    width: 600px;
+    margin: 10px 165px 10px auto;}
+
+
+
+
+

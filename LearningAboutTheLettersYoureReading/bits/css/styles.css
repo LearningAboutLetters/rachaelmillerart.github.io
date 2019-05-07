@@ -1,0 +1,48 @@
+/*BITS CSS*/
+
+/*site font*/
+*{font-family: 'Oswald', sans-serif;}
+
+body{
+    background-image:url("../img/bgimg.png");
+}
+/*navigation*/
+#nav{
+    display: inline;
+    font-size: 30px;
+    margin: 20px;    }
+.navigation {
+    text-align: right;}
+
+/*link decoration NO UNDERLINE and color change*/
+a:link {
+    text-decoration: none;
+    color: #253946; /*blue color*/}
+a:visited {
+    text-decoration: none;
+    color: #253946;}
+a:hover {
+    color: #ecaa92; /*dark peach color*/}
+
+/*title*/
+p{
+    color: #ecaa92;
+    font-size: 60px;}
+
+/*PAGE SPECIFIC CSS*/
+
+.largeRserif{
+    font-family: serif;
+    color: #2e4b46;
+    font-size: 1000px;
+    text-align: center;
+    float:inherit;
+}
+/*page title and content*/
+.pagetitle{
+    color: #2e4b46;
+    font-size: 250px;
+    text-align: right;
+    float: left;
+    display: block;
+}
